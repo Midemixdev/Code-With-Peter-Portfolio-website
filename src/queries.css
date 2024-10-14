@@ -224,6 +224,9 @@
   .about h2 {
     font-size: 3.2rem;
   }
+  .about {
+    padding-top: 17rem;
+  }
   /* media at 520 */
 }
 @media (max-width: 25em) {
@@ -259,9 +262,6 @@
   }
   .modal {
     padding: 5rem 0rem;
-  }
-  .about {
-    padding: 20rem 2rem 8rem;
   }
   /* media ar 400 */
 }
