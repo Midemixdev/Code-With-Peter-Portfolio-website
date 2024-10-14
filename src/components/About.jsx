@@ -16,7 +16,7 @@ function About() {
       </p>
       <p className="small-screen">
         Hi, I'm Johnson Peter, a skilled web developer passionate about crafting
-        exceptional online experiences
+        exceptional online experiences.
       </p>
     </div>
   );
