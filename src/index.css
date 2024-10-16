@@ -42,14 +42,14 @@ header {
   z-index: 8;
 }
 .nav-btn {
+  background: none;
+  color: var(--color-light--2);
   padding: 5px;
   cursor: pointer;
   border: none;
-  background: none;
   outline: none;
   font-size: 2rem;
   display: none;
-  color: var(--color-light--2);
 }
 nav ul {
   list-style: none;
