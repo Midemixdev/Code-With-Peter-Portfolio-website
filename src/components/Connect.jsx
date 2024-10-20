@@ -40,7 +40,7 @@ const Connect = () => {
               Share your project idea, <br /> and let's bring it to life.
             </p>
 
-            <form className="modal__form" onClick={handleFormSubmit}>
+            <form className="modal__form" onSubmit={handleFormSubmit}>
               <input
                 required
                 type="email"

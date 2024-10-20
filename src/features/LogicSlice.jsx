@@ -4,7 +4,6 @@ const initialState = {
   email: "",
   message: "",
   isOpen: false,
-  submitted: false,
 };
 
 const logicSlice = createSlice({
@@ -12,7 +11,6 @@ const logicSlice = createSlice({
   initialState,
   reducers: {
     handleSubmit(state) {
-      state.submitted = true;
       state.email = "";
       state.message = "";
     },
