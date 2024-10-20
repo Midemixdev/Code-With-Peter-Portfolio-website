@@ -24,8 +24,8 @@ function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <h2>
-        My <span className="highlight">Res</span>
-        <span className="highlight-2">cent</span> Work
+        My <span className="highlight">Rec</span>
+        <span className="highlight-2">ent</span> Works
       </h2>
       <ul>
         {PortfolioData.map((data, i) => (

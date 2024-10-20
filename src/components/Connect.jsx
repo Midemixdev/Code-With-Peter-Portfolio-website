@@ -12,6 +12,7 @@ const Connect = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    if (!email || !message) return;
     dispatch(handleSubmit());
   };
 
@@ -26,7 +27,6 @@ const Connect = () => {
   const handleClose = () => {
     dispatch(closeModal());
   };
-
   return (
     <>
       {isOpen && (
@@ -40,14 +40,17 @@ const Connect = () => {
               Share your project idea, <br /> and let's bring it to life.
             </p>
 
-            <form className="modal__form" onSubmit={handleFormSubmit}>
+            <form className="modal__form" onClick={handleFormSubmit}>
               <input
+                required
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
                 placeholder="Email address"
+                name="user_email"
               />
               <textarea
+                required
                 type="text"
                 value={message}
                 onChange={handleMessageChange}
