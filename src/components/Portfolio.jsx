@@ -4,18 +4,19 @@ const PortfolioData = [
   {
     id: 1,
     image: "/portfolioImage/quize.png",
-    name: "Quiz Mastery",
+    name: "tour with josh",
     quote:
-      "A responsive quiz platform utilizing modern web technologies for immersive learning experiences.",
-    link: "https://quiz-mastery.vercel.app/",
+      "Travel Simplified: Personalized solutions, easy bookings, and 24/7 support.",
+    link: "https://tour-josh.vercel.app/",
   },
 
   {
     id: 2,
-    image: "/portfolioImage/guess.png",
-    name: "Digit Hunt",
-    quote: "A thrilling number-finding game that tests speed and accuracy",
-    link: "https://digit-hunt.vercel.app/",
+    image: "/portfolioImage/quize.png",
+    name: "Quiz Mastery",
+    quote:
+      "A responsive quiz platform utilizing modern web technologies for immersive learning experiences.",
+    link: "https://quiz-mastery.vercel.app/",
   },
 ];
 

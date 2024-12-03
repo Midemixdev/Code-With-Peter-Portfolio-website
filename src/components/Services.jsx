@@ -4,7 +4,7 @@ const servicesData = [
     icon: "/servicesIcon/customisation.png",
     heading: "Custom Website Design",
     content:
-      "My passion for blending art and functionality creates captivating, user-friendly websites. Years of refining my design skills ensure tailored solutions.",
+      "our passion for blending art and functionality creates captivating, user-friendly websites. Years of refining our design skills ensure tailored solutions.",
   },
 
   {
@@ -28,7 +28,7 @@ const servicesData = [
     icon: "/servicesIcon/support.png",
     heading: "Website Maintenance and Support",
     content:
-      "Proactive security, updates, and optimization ensure peace of mind. With my expertise, your website stays secure, fast, and always online.",
+      "Proactive security, updates, and optimization ensure peace of mind. With our expertise, your website stays secure, fast, and always online.",
   },
 
   {
@@ -36,7 +36,7 @@ const servicesData = [
     icon: "/servicesIcon/responsive.png",
     heading: "Responsive Web Design",
     content:
-      "Mobile-friendly designs adapt to every screen size, enhancing user engagement. My expertise guarantees seamless experiences across devices.",
+      "Mobile-friendly designs adapt to every screen size, enhancing user engagement. our expertise guarantees seamless experiences across devices.",
   },
 
   {
@@ -55,15 +55,15 @@ function Services() {
         <span className="highlight">Ser</span>vices
       </h2>
       <ul>
-        {servicesData.map((services, i) => (
-          <ServiceList key={services.id} servicesObj={services} num={i} />
+        {servicesData.map((services) => (
+          <ServiceList key={services.id} servicesObj={services} />
         ))}
       </ul>
     </div>
   );
 }
 
-function ServiceList({ servicesObj, num }) {
+function ServiceList({ servicesObj }) {
   return (
     <li className="service-list">
       <img src={servicesObj.icon} alt={servicesObj.name} />

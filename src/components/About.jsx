@@ -9,14 +9,14 @@ function About() {
         for Your Needs
       </h2>
       <p className="wild-screen">
-        Hi, my name is Johnson Peter, a skilled and innovative web developer
-        passionate about building exceptional online experiences. I craft custom
-        web solutions that drive success, combining creativity, precision, and
-        technical expertise to bring your vision to life.
+        Hello, we're Codemasters Inc., a team of innovative web developers
+        dedicated to crafting exceptional online experiences. Our custom
+        solutions blend creativity and technical expertise to bring your vision
+        to life.
       </p>
       <p className="small-screen">
-        Hi, I'm Johnson Peter, a skilled web developer passionate about crafting
-        exceptional online experiences.
+        Hi, we're Codemasters Inc., a skilled team of web developers crafting
+        exceptional online experiences with creativity and expertise.
       </p>
     </div>
   );

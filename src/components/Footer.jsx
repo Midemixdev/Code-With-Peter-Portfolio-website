@@ -51,7 +51,7 @@ function Footer() {
         </div>
       </div>
       <p className="copyright">
-        <span>Copyright &copy; {currentYear}</span> Code With Peter. All rights
+        <span>Copyright &copy; {currentYear}</span> Codemasters Inc. All rights
         reserved
       </p>
     </div>

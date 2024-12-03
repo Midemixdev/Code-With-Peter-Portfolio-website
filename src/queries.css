@@ -229,6 +229,7 @@
   }
   /* media at 520 */
 }
+
 @media (max-width: 25em) {
   .stacks-icon {
     height: 5rem;
