@@ -9,7 +9,7 @@ function About() {
         for Your Needs
       </h2>
       <p className="wild-screen">
-        Hello, we're Codemasters Inc., a team of innovative web developers
+        Hello, we're Codemasters Inc, a team of innovative web developers
         dedicated to crafting exceptional online experiences. Our custom
         solutions blend creativity and technical expertise to bring your vision
         to life.

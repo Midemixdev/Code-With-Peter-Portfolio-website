@@ -1,9 +1,12 @@
 import { useState } from "react";
 
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css";
+
 const PortfolioData = [
   {
     id: 1,
-    image: "/portfolioImage/quize.png",
+    image: "/jsoh-pic.png",
     name: "tour with josh",
     quote:
       "Travel Simplified: Personalized solutions, easy bookings, and 24/7 support.",
@@ -24,10 +27,12 @@ function Portfolio() {
   const [hoveredId, setHoveredId] = useState(null);
   return (
     <div className="portfolio" id="portfolio">
-      <h2>
-        My <span className="highlight">Rec</span>
-        <span className="highlight-2">ent</span> Works
-      </h2>
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+        <h2>
+          <span className="highlight">Rec</span>
+          <span className="highlight-2">ent</span> Works
+        </h2>
+      </ScrollAnimation>
       <ul>
         {PortfolioData.map((data, i) => (
           <List
@@ -52,24 +57,26 @@ function List({ dataObj, num, curHovered, onHover }) {
   };
 
   return (
-    <li
-      className={`portfolio-list ${isHovered ? "hovered" : ""}`}
-      onMouseOver={handleMouseOver}
-      onMouseOut={handleMouseOut}
-    >
-      {isHovered ? (
-        <div className="portfolio-el">
-          <p className="quote">{dataObj.quote}</p>
-          <a href={dataObj.link}>
-            <button className="btn-sub">View site &gt;</button>
-          </a>
-        </div>
-      ) : (
-        <div className="portfolio-image">
-          <img src={dataObj.image} alt={dataObj.name} />
-        </div>
-      )}
-    </li>
+    <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+      <li
+        className={`portfolio-list ${isHovered ? "hovered" : ""}`}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
+      >
+        {isHovered ? (
+          <div className="portfolio-el">
+            <p className="quote">{dataObj.quote}</p>
+            <a href={dataObj.link}>
+              <button className="btn-sub">View site &gt;</button>
+            </a>
+          </div>
+        ) : (
+          <div className="portfolio-image">
+            <img src={dataObj.image} alt={dataObj.name} />
+          </div>
+        )}
+      </li>
+    </ScrollAnimation>
   );
 }
 

@@ -1,3 +1,6 @@
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css";
+
 const servicesData = [
   {
     id: 1,
@@ -51,9 +54,11 @@ const servicesData = [
 function Services() {
   return (
     <div className="services" id="services">
-      <h2>
-        <span className="highlight">Ser</span>vices
-      </h2>
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+        <h2>
+          <span className="highlight">Ser</span>vices
+        </h2>
+      </ScrollAnimation>
       <ul>
         {servicesData.map((services) => (
           <ServiceList key={services.id} servicesObj={services} />
@@ -65,11 +70,13 @@ function Services() {
 
 function ServiceList({ servicesObj }) {
   return (
-    <li className="service-list">
-      <img src={servicesObj.icon} alt={servicesObj.name} />
-      <h3>{servicesObj.heading}</h3>
-      <p>{servicesObj.content}</p>
-    </li>
+    <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+      <li className="service-list">
+        <img src={servicesObj.icon} alt={servicesObj.name} />
+        <h3>{servicesObj.heading}</h3>
+        <p>{servicesObj.content}</p>
+      </li>
+    </ScrollAnimation>
   );
 }
 

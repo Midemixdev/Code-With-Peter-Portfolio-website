@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css";
+
 const iconData = [
   {
     name: "angular",
@@ -71,18 +74,22 @@ function Stacks() {
 
   return (
     <div className="stacks">
-      <h2>
-        My <span className="highlight">Stacks</span>
-      </h2>
+      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+        <h2>
+          Sta<span className="highlight">cks</span>
+        </h2>
+      </ScrollAnimation>
       <ul>
         {iconData.map((icon, i) => (
-          <Icon
-            key={icon.id}
-            iconObj={icon}
-            num={i}
-            curHovered={hoveredId}
-            onHover={setHoveredId}
-          />
+          <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+            <Icon
+              key={icon.id}
+              iconObj={icon}
+              num={i}
+              curHovered={hoveredId}
+              onHover={setHoveredId}
+            />
+          </ScrollAnimation>
         ))}
       </ul>
     </div>
