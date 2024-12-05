@@ -15,7 +15,7 @@ function About() {
         to life.
       </p>
       <p className="small-screen">
-        Hi, we're Codemasters Inc., a skilled team of web developers crafting
+        Hi, we're Codemasters Inc, a skilled team of web developers crafting
         exceptional online experiences with creativity and expertise.
       </p>
     </div>
