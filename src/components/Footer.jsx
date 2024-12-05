@@ -46,11 +46,8 @@ function Footer() {
             <a href="mailto:>olamidepeter912@gmail.com" className="social-link">
               <img src="/footerIcon/email.png" alt="email logo" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/olamide-johnson-5493042a0"
-              className="social-link"
-            >
-              <img src="/footerIcon/linkedIn.png" alt="linkedIn logo" />
+            <a href="http://wa.me/+2349068764607" className="social-link">
+              <img src="/footerIcon/apple.png" alt="whatsapp logo" />
             </a>
           </div>
           <div>
