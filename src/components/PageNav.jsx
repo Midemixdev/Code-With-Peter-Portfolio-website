@@ -25,7 +25,7 @@ function PageNav() {
       <nav ref={navRef}>
         <ul>
           <li onClick={handleClose}>
-            <a href="#about">About me</a>
+            <a href="#about">About</a>
           </li>
           <li onClick={handleClose}>
             <a href="#services">Services</a>
