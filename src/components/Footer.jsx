@@ -37,26 +37,24 @@ function Footer() {
         </p>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-        <div className="flex">
-          <div className="flex-img">
-            <a href="https://github.com/Midemixdev" className="social-link">
-              <img src="/footerIcon/github.png" alt="github logo" />
-            </a>
-            <a href="mailto:>olamidepeter912@gmail.com" className="social-link">
-              <img src="/footerIcon/email.png" alt="email logo" />
-            </a>
-            <a href="http://wa.me/+2349068764607" className="social-link">
-              <img src="/footerIcon/apple.png" alt="whatsapp logo" />
-            </a>
-          </div>
-          <div>
-            <button className="footer-button" onClick={handleOpen}>
-              Get in touch
-            </button>
-          </div>
+      <div className="flex">
+        <div className="flex-img">
+          <a href="https://github.com/Midemixdev" className="social-link">
+            <img src="/footerIcon/github.png" alt="github logo" />
+          </a>
+          <a href="mailto:>olamidepeter912@gmail.com" className="social-link">
+            <img src="/footerIcon/email.png" alt="email logo" />
+          </a>
+          <a href="http://wa.me/+2349068764607" className="social-link">
+            <img src="/footerIcon/apple.png" alt="whatsapp logo" />
+          </a>
         </div>
-      </ScrollAnimation>
+        <div>
+          <button className="footer-button" onClick={handleOpen}>
+            Get in touch
+          </button>
+        </div>
+      </div>
 
       <p className="copyright">
         <span>Copyright &copy; {currentYear}</span> Codemasters Inc. All rights
