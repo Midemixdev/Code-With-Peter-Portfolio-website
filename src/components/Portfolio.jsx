@@ -10,7 +10,7 @@ const PortfolioData = [
     name: "tour with josh",
     quote:
       "Travel Simplified: Personalized solutions, easy bookings, and 24/7 support.",
-    link: "https://tour-josh.vercel.app/",
+    link: "https://tour-with-josh.vercel.app/",
   },
 
   {
