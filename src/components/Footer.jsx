@@ -31,8 +31,8 @@ function Footer() {
         <p>
           Keep up-to-date with our latest projects, achievements, and{" "}
           <br className="break" />
-          experiences. Feel free to reach out - I'm excited to explore potential{" "}
-          <br className="break" />
+          experiences. Feel free to reach out - we're excited to explore
+          potential <br className="break" />
           collaborations, share knowledge, or discuss innovative ideas.
         </p>
       </ScrollAnimation>
