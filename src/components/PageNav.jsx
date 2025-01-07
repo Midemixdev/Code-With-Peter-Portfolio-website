@@ -21,7 +21,7 @@ function PageNav() {
   };
   return (
     <header>
-      <img src="/master2.png" alt="codemaster logo" className="logo" />
+      <img src="/previmg.png" alt="codemaster logo" className="logo" />
       <nav ref={navRef}>
         <ul>
           <li onClick={handleClose}>
