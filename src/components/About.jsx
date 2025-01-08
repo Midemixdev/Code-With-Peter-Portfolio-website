@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="avatar-img">
-        <img src="/avatar.jpg" alt="codewithpeter" />
+        <img src="/masterpic.png" alt="codewithpeter" />
       </div>
       <h2>
         Professional Web Deve<span>loper</span> <br className="break1" />
