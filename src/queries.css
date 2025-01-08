@@ -177,7 +177,7 @@
     padding: 8rem;
   }
   .about img {
-    height: 15rem;
+    height: auto;
     width: 15rem;
     margin-bottom: 2rem;
   }
