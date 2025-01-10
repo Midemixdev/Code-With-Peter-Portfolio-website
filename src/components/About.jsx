@@ -5,8 +5,8 @@ function About() {
         <img src="/masterpic.png" alt="codewithpeter" />
       </div>
       <h2>
-        Professional Web Deve<span>loper</span> <br className="break1" />
-        for Your Needs
+        Expert Web Deve<span>loper</span> <br className="break1" />
+        Tailored To Your Business Needs
       </h2>
       <p className="wild-screen">
         Hello, we're Codemasters Inc. a team of innovative web developers
@@ -15,8 +15,9 @@ function About() {
         to life.
       </p>
       <p className="small-screen">
-        Hello, we're Codemasters Inc. a skilled team of web developers crafting
-        exceptional online experiences with creativity and expertise.
+        Welcome to Codemasters Inc. We're a team of web experts delivering
+        exceptional online experiences with creativity, tech expertise, and
+        innovation.
       </p>
     </div>
   );
