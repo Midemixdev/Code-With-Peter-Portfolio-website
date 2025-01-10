@@ -227,6 +227,9 @@
   .about {
     padding-top: 17rem;
   }
+  .portfolio h2 {
+    margin-bottom: 8rem;
+  }
   /* media at 520 */
 }
 
@@ -257,6 +260,9 @@
   }
   .portfolio {
     padding: 9rem 5rem;
+  }
+  .portfolio h2 {
+    margin-bottom: 6.5rem;
   }
   .services {
     padding: 5rem;
