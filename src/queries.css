@@ -187,9 +187,6 @@
   .about {
     padding: 20rem 4rem 8rem;
   }
-  .break1 {
-    display: none;
-  }
   .portfolio-el {
     padding: 4rem;
   }
@@ -266,6 +263,13 @@
   }
   .modal {
     padding: 5rem 0rem;
+  }
+  .break1 {
+    display: none;
+  }
+  .break3,
+  .break2 {
+    display: block;
   }
   /* media ar 400 */
 }

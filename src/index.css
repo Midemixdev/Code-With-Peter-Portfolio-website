@@ -130,6 +130,10 @@ nav a:active {
   display: flex;
   justify-content: center;
 }
+.break3,
+.break2 {
+  display: none;
+}
 /* .avatar-img::before {
   content: "";
   display: block;

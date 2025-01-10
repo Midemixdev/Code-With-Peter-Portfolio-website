@@ -5,8 +5,9 @@ function About() {
         <img src="/masterpic.png" alt="codewithpeter" />
       </div>
       <h2>
-        Expert Web Deve<span>loper</span> <br className="break1" />
-        Tailored To Your Business Needs
+        Expert Web <br className="break2" /> Deve<span>loper</span>{" "}
+        <br className="break1" />
+        Tailored To <br className="break3" /> Your Business Needs
       </h2>
       <p className="wild-screen">
         Hello, we're Codemasters Inc. a team of innovative web developers
