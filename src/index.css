@@ -399,7 +399,17 @@ textarea {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  justify-content: center;
+  gap: 8.5rem;
+}
+.portfolio-list {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
 }
 .portfolio-el p {
   font-size: 1.8rem;
@@ -411,16 +421,6 @@ textarea {
 .highlight-2 {
   color: #1b6a9bc4;
 }
-.portfolio-list {
-  height: 20rem;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease;
-  position: relative;
-}
-
 .portfolio-list.hovered {
   transform: scale(1.05);
   transition: all 0.3s ease;

@@ -1,3 +1,9 @@
+@media (max-width: 1300px) {
+  .portfolio {
+    height: auto;
+  }
+}
+
 @media (max-width: 75em) {
   .about {
     padding: 15rem 20rem 13rem 20rem;
@@ -7,9 +13,6 @@
   }
   .stacks {
     padding: 8rem 20rem;
-  }
-  .portfolio {
-    height: auto;
   }
   .portfolio-el {
     padding: 4rem;
@@ -28,7 +31,7 @@
     padding: 8rem 15rem;
   }
   .portfolio {
-    padding: 9rem 7rem 7rem 8rem;
+    padding: 9rem 8rem;
   }
   .portfolio-el {
     padding: 2rem;
@@ -141,7 +144,7 @@
     padding: 4rem;
   }
   .portfolio {
-    padding: 9rem 5rem 9rem 9rem;
+    padding: 9rem 5rem;
   }
   .stacks {
     padding: 8rem 10rem;
