@@ -47,7 +47,7 @@ const servicesData = [
     icon: "/servicesIcon/optimize.png",
     heading: "Website Optimization",
     content:
-      "Technical audits, keyword research, and on-page optimization boost visibility. My targeted SEO strategies drive organic traffic and growth.",
+      "Technical audits, keyword research, and on-page optimization boost visibility. Our targeted SEO strategies drive organic traffic and growth.",
   },
 ];
 
