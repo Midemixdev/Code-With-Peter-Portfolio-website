@@ -252,8 +252,11 @@
     margin-bottom: 2.7rem;
     line-height: 1.3;
   }
+  .about {
+    padding-top: 15.5rem;
+  }
   .about img {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
   }
   .portfolio-el {
     padding: 2rem;
