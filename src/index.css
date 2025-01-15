@@ -104,18 +104,19 @@ nav a:active {
 
 /* about component styles */
 .about {
-  padding: 15rem 30rem 10rem 30rem;
+  padding: 16rem 30rem 10rem 30rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .about img {
-  height: auto;
-  width: 22rem;
+  height: 18rem;
+  width: 18rem;
   justify-self: center;
   margin-bottom: 1rem;
   background-color: #fff;
-  padding: 2rem;
+  padding: 0rem;
+  overflow: hidden;
   border-radius: 50%;
 }
 .about h2 {
